@@ -1,15 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="cs">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crap portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="file:///D:/htmuk/ukazka/neco/dalsi.css" />
+    <title>Ještě něco</title>
 </head>
 
 <body>
-
+    <a href="./index.html">ind</a>
+    <Form id="FORM">
+        <label for="jmeno">Jméno:</label> <input type="text" id="jmeno" class="form"><br /><br />
+        <label for="prijmeni">Příjmení:</label> <input type="text" id="prijmeni" class="form"><br /><br />
+        <label for="vek">Věk:</label><input type="number" id="vek" class="form" min="0" max="150" value="18"><br /><br />
+        <label for="pohlavi">Pohlaví:</label>
+        <input type="radio" id="muz" name="pohlavi" value="muz"><label for="muz">Muž</label><br /><br />
+        <label for="pohlavi" style="color:black">Pohlaví:</label>
+        <input type="radio" id="zena" name="pohlavi" value="zena"><label for="zena">Žena</label><br /><br />
+        <label for="barva">Oblíbená barva:</label> <input type="color" id="barva" class="form" style="border:none" value="#ffffff"><br /><br />
+        <label for="captcha">Zaškrtni bravy, které má obvykle zebra, aby byla jistota, že nejste robot:</label><br /><br />
+        <input type="checkbox" id="bila" name="captcha"><label for="bila">Bílá</label><br /><br />
+        <input type="checkbox" id="cervena" name="captcha"><label for="cervena">Červená</label><br /><br />
+        <input type="checkbox" id="cerna" name="captcha"><label for="cerna">Černá</label><br /><br />
+        <input type="submit" value="Odeslat" id="odeslat" class="form" style="border:solid">
+    </Form>
 </body>
 
 </html>
